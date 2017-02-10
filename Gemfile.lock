@@ -1,0 +1,77 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
+    akami (1.3.1)
+      gyoku (>= 0.4.0)
+      nokogiri
+    builder (3.2.3)
+    coderay (1.1.1)
+    faraday (0.11.0)
+      multipart-post (>= 1.2, < 3)
+    google-ads-common (0.12.6)
+      google-ads-savon (~> 1.0.2)
+      httpclient (~> 2.7)
+      httpi (~> 2.3)
+      signet (~> 0.7.0)
+    google-ads-savon (1.0.2)
+      akami (~> 1.2)
+      builder (~> 3.2)
+      gyoku (~> 1.2)
+      httpi (~> 2.3)
+      nokogiri (~> 1.6)
+      nori (~> 2.6)
+      wasabi (~> 3.4)
+    google-adwords-api (0.22.0)
+      google-ads-common (~> 0.12.5)
+    gyoku (1.3.1)
+      builder (>= 2.1.2)
+    httpclient (2.8.3)
+    httpi (2.4.2)
+      rack
+      socksify
+    jwt (1.5.6)
+    method_source (0.8.2)
+    mini_portile2 (2.1.0)
+    multi_json (1.12.1)
+    multipart-post (2.0.0)
+    nokogiri (1.7.0.1)
+      mini_portile2 (~> 2.1.0)
+    nori (2.6.0)
+    parallel (1.10.0)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-doc (0.10.0)
+      pry (~> 0.9)
+      yard (~> 0.9)
+    public_suffix (2.0.5)
+    rack (2.0.1)
+    rake (12.0.0)
+    signet (0.7.3)
+      addressable (~> 2.3)
+      faraday (~> 0.9)
+      jwt (~> 1.5)
+      multi_json (~> 1.10)
+    slop (3.6.0)
+    socksify (1.7.0)
+    wasabi (3.5.0)
+      httpi (~> 2.0)
+      nokogiri (>= 1.4.2)
+    yard (0.9.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  google-adwords-api
+  parallel
+  pry
+  pry-doc
+  rake
+
+BUNDLED WITH
+   1.13.6

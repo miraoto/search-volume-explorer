@@ -5,19 +5,20 @@ Investigate the monthly search volume of the organic search
 
 ## Getting started
 
-+ Install your library of choice using RubyGems.
+### 1. Install your library of choice using RubyGems.
 
 ```
  $ bundle install --path=vendor/bundle
 ```
 
-+ Copy the 'adwords_api.yml' file for your product to your home directory and fill out the required properties.
+### 2. Copy the 'adwords_api.yml' file for your product to your home directory and fill out the required properties.
 
 [adwords_api.yml](https://github.com/miraoto/search-volume-explorer/blob/master/adwords_api.yml)
 
-+ Setup your OAuth2 credentials.
+### 3. Setup your OAuth2 credentials.
 
 [https://developers.google.com/api-client-library/ruby/guide/aaa_oauth](OAuth 2.0  |  API Client Library for Ruby (Alpha)  |  Google Developers)
+
 
 ## Usage
 

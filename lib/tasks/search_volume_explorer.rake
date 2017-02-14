@@ -11,7 +11,7 @@ namespace :search_volume_explorer do
 
       client = Adwords::ApiClient.create(:TargetingIdeaService, :v201609)
       entries = TargetingIdeaService.find_entries_by_query(client, queries, 'STATS')
-      FileUtil.import(entries)
+      FileUtil.import_stats(entries)
     end
   end
 
@@ -23,7 +23,7 @@ namespace :search_volume_explorer do
 
       client = Adwords::ApiClient.create(:TargetingIdeaService, :v201609)
       entries = TargetingIdeaService.find_entries_by_query(client, queries, 'IDEAS')
-      FileUtil.import(entries)
+      FileUtil.import_ideas(entries)
     end
   end
 

@@ -22,7 +22,7 @@ namespace :search_volume_explorer do
   def process_search_volume(args, request_type)
     begin
       queries = [args[:queries], args.extras].flatten
-      client = Adwords::ApiClient.create(:TargetingIdeaService, :v201609)
+      client = Adwords::ApiClient.create(:TargetingIdeaService, :v201809)
       TargetingIdeaService.find_entries_by_query(client, queries, request_type)
     end
   end

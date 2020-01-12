@@ -8,7 +8,7 @@ GEM
       nokogiri
     builder (3.2.4)
     coderay (1.1.2)
-    faraday (0.17.1)
+    faraday (0.17.3)
       multipart-post (>= 1.2, < 3)
     google-ads-common (1.0.2)
       google-ads-savon (~> 1.0, >= 1.0.2)
@@ -47,8 +47,8 @@ GEM
     pry-doc (1.0.0)
       pry (~> 0.11)
       yard (~> 0.9.11)
-    public_suffix (4.0.1)
-    rack (2.0.8)
+    public_suffix (4.0.3)
+    rack (2.1.1)
     rake (13.0.1)
     signet (0.12.0)
       addressable (~> 2.3)
@@ -59,7 +59,7 @@ GEM
     wasabi (3.5.0)
       httpi (~> 2.0)
       nokogiri (>= 1.4.2)
-    yard (0.9.20)
+    yard (0.9.24)
 
 PLATFORMS
   ruby
